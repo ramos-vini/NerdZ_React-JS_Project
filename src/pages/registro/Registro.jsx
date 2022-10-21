@@ -1,10 +1,8 @@
 import './registro.css';
 import { TextField, FormControl, Button, Stack } from '@mui/material';
 import {theme, OrangeTextField} from '../../muiTheme';
-import SmartDisplayOutlinedIcon from '@mui/icons-material/SmartDisplayOutlined';
 import VideoLibraryOutlinedIcon from '@mui/icons-material/VideoLibraryOutlined';
 import Header from '../../components/header/Header';
-import FixedCart from '../../components/fixedCart/FixedCart';
 
 
 export default function Registro(params) {

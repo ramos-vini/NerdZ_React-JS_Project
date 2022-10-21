@@ -1,0 +1,65 @@
+.mainDiv{
+    display: flex;
+    align-items: center;
+}
+
+.form{
+    width: 40%;
+}
+
+.smartDisplayIcon{
+    margin: 0 auto;
+    color: #FF731D;
+    transform: scale(1.5);
+}
+
+.form h1, p{
+    text-align: center;
+}
+
+.form p{
+    color: gray;
+    text-decoration: none;
+}
+
+.form p:hover{
+    cursor: initial;
+}
+
+.form a{
+    text-decoration: underline;
+}
+
+.form a:hover{
+    cursor: pointer;  
+}
+
+.form *{
+    margin-bottom: 2% !important;
+}
+
+.form h1{
+    margin-bottom: 12% !important;
+}
+
+.form a{
+    margin-top: 4% !important;
+}
+
+/* Tablet MQ */
+@media screen and (max-width: 1023px){
+    .form{
+        width: 80%;
+    }
+}
+
+/* Mobile MQ */
+@media screen and (max-width: 767px){
+    .form{
+        width: 90%;
+    }
+
+    h1{
+        font-size: 1.6rem;
+    }
+}

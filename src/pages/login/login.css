@@ -10,7 +10,7 @@
 .loginIcon{
     margin: 0 auto;
     color: #FF731D;
-    transform: scale(1.5);
+    font-size: 3.0rem !important;
 }
 
 .form h1, p{

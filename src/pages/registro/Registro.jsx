@@ -1,21 +1,27 @@
 import './registro.css';
 import { TextField, FormControl, Button, Stack } from '@mui/material';
 import {theme, OrangeTextField} from '../../muiTheme';
-import SmartDisplayIcon from '@mui/icons-material/SmartDisplay';
+import SmartDisplayOutlinedIcon from '@mui/icons-material/SmartDisplayOutlined';
+import VideoLibraryOutlinedIcon from '@mui/icons-material/VideoLibraryOutlined';
+import Header from '../../components/header/Header';
+import FixedCart from '../../components/fixedCart/FixedCart';
+
 
 export default function Registro(params) {
 
     return (
         <>
 
+            <Header></Header>
+
             <Stack className='mainDiv'>
 
             <FormControl sx={{padding: '5%'}} className='form'>
 
-            <SmartDisplayIcon className='smartDisplayIcon' fontSize='large'></SmartDisplayIcon>    
+            <VideoLibraryOutlinedIcon className='videoIcon' fontSize='large'></VideoLibraryOutlinedIcon>    
 
             <h1>Faça sua matrícula grátis</h1>
-
+        
             <TextField className='input' label="Nome Completo" variant="outlined" type="text" sx={OrangeTextField}/>
 
             <TextField className='input' label="E-mail" variant="outlined" type="email" sx={OrangeTextField}/>
@@ -26,12 +32,11 @@ export default function Registro(params) {
 
             <Button variant="contained" theme={theme} sx={{color: 'white'}}>Entrar</Button>
 
-            <p>Ao clicar em cadastrar, você declara que leu e concorda com nossos <a href>termos de utilização.</a></p>
+            <p>Ao clicar em cadastrar, você declara que leu e concorda com nossos <a href>termos de utilização</a>.</p>
 
             </FormControl>
 
             </Stack>
-            
         </>
     );
 }

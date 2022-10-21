@@ -1,0 +1,44 @@
+nav{
+    background-color: #FF731D;
+    padding: 1% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav *{
+    color: white;
+}
+
+nav a:hover{
+    cursor: pointer;
+}
+
+.navDiv1, .navDiv2{
+    width: 20%;
+}
+
+.navDiv2{
+    width: 80%;
+}
+
+.navDiv2{
+    display: flex;
+    justify-content: end;
+}
+
+.navDiv2 a{
+    margin-left: 2%;
+    font-weight: bold;
+    border: 2px white solid;
+    border-radius: 50px;
+    padding: 2px 16px;
+}
+
+.navDiv2 a:first-of-type{
+    background-color: white;
+    color: #FF731D !important;
+}
+
+
+

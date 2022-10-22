@@ -3,6 +3,14 @@
     src: url(../../assets/fonts/Retrolab.ttf);
 }
 
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
 .logo{
     font-family: logo;
     font-size: 2.5rem;

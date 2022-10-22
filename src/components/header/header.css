@@ -8,7 +8,7 @@
     font-size: 2.5rem;
 }
 
-nav{
+.headerNav{
     background-color: #FF731D;
     padding: 1% 10%;
     display: flex;
@@ -16,7 +16,7 @@ nav{
     align-items: center;
 }
 
-nav *{
+.headerNav *{
     color: white;
 }
 
@@ -24,16 +24,16 @@ nav a:hover{
     cursor: pointer;
 }
 
-.navDiv2{
+.headerNavDiv2{
     width: 100%;
 }
 
-.navDiv2{
+.headerNavDiv2{
     display: flex;
     justify-content: end;
 }
 
-.navDiv2 a{
+.headerNavDiv2 a{
     margin-left: 2%;
     font-weight: bold;
     border: 2px white solid;
@@ -41,7 +41,7 @@ nav a:hover{
     padding: 1px 16px;
 }
 
-.navDiv2 a:first-of-type{
+.headerNavDiv2 a:first-of-type{
     background-color: white;
     color: #FF731D !important;
 }

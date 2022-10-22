@@ -1,6 +1,7 @@
 .mainDiv{
     display: flex;
     align-items: center;
+    min-height: 80vh;
 }
 
 .form{
@@ -42,6 +43,10 @@
 @media screen and (max-width: 1023px){
     .form{
         width: 80%;
+    }
+
+    .mainDiv{
+        padding-top: 10%;
     }
 }
 

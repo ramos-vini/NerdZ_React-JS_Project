@@ -2,11 +2,14 @@ import './login.css';
 import { TextField, FormControl, Button, Stack } from '@mui/material';
 import {theme, OrangeTextField} from '../../muiTheme';
 import LoginIcon from '@mui/icons-material/Login';
+import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
 
 export default function Login(params) {
 
     return (
         <>
+            <Header></Header>
 
             <Stack className='mainDiv'>
 
@@ -22,12 +25,13 @@ export default function Login(params) {
 
             <Button variant="contained" theme={theme} sx={{color: 'white'}}>Entrar</Button>
 
-            <a href><p>Esqueci minha senha</p></a>
+            <p><a href>Esqueci minha senha</a></p>
 
             </FormControl>
 
             </Stack>
             
+            <Footer></Footer>
         </>
     );
 }

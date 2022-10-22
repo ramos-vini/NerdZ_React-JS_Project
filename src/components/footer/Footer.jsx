@@ -1,5 +1,6 @@
 import './footer.css';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import { Link } from "react-router-dom";
 
 export default function Footer(params) {
     return (
@@ -19,7 +20,7 @@ export default function Footer(params) {
             </div>
 
             <div className='footerNavDiv2'>
-                <h2 className='logo logoFooter'><a href>NerdZ</a></h2>
+            <h2 className='logo logoFooter'><Link to="/">NerdZ</Link></h2>
             </div>
         </nav>
     );

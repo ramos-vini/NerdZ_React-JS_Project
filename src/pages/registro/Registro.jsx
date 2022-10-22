@@ -3,6 +3,7 @@ import { TextField, FormControl, Button, Stack } from '@mui/material';
 import {theme, OrangeTextField} from '../../muiTheme';
 import VideoLibraryOutlinedIcon from '@mui/icons-material/VideoLibraryOutlined';
 import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
 
 
 export default function Registro(params) {
@@ -10,12 +11,10 @@ export default function Registro(params) {
     return (
         <>
 
-            <Header></Header>
+            <Header/>
 
             <Stack className='mainDiv'>
-
             <FormControl sx={{padding: '5%'}} className='form'>
-
             <VideoLibraryOutlinedIcon className='videoIcon' fontSize='large'></VideoLibraryOutlinedIcon>    
 
             <h1>Faça sua matrícula grátis</h1>
@@ -28,13 +27,13 @@ export default function Registro(params) {
 
             <TextField className='input' id="outlined-basic2" label="Confirme sua senha" variant="outlined" type="password" sx={OrangeTextField}/>
 
-            <Button variant="contained" theme={theme} sx={{color: 'white'}}>Entrar</Button>
+            <Button variant="contained" theme={theme} sx={{color: 'white'}}>Cadastrar</Button>
 
             <p>Ao clicar em cadastrar, você declara que leu e concorda com nossos <a href>termos de utilização</a>.</p>
-
             </FormControl>
-
             </Stack>
+
+            <Footer/>
         </>
     );
 }

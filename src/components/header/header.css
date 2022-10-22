@@ -1,3 +1,13 @@
+@font-face {
+    font-family: logo;
+    src: url(../../assets/fonts/Retrolab.ttf);
+}
+
+.logo{
+    font-family: logo;
+    font-size: 2.5rem;
+}
+
 nav{
     background-color: #FF731D;
     padding: 1% 10%;
@@ -38,6 +48,11 @@ nav a:hover{
 
 /* Mobile MQ */
 @media screen and (max-width: 767px){
+
+    .logo{
+        font-size: 1.8rem;
+    }
+
     .navDiv2 a{
         font-size: 0.7rem;
     }

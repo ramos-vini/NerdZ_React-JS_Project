@@ -5,7 +5,7 @@ export default function Header(params) {
         <>
             <nav>
                 <div className='navDiv1'>
-                    <h2><a href>Logo</a></h2>
+                    <h2 className='logo'><a href>NerdZ</a></h2>
                 </div>
 
                 <div className='navDiv2'>

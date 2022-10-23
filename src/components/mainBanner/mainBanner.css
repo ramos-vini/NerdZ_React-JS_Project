@@ -1,0 +1,36 @@
+.mainBannerBg{
+    background-image: url(../../assets/img/geek_banner.png);
+}
+
+.mainBannerFilter{
+    backdrop-filter: blur(5px);
+}
+
+.mainBannerContent{
+    padding: 10% 0;
+}
+
+.mainBannerContent *{
+    text-align: center;
+    color: white;
+}
+
+.mainBannerContent h1{
+    font-size: 7.0rem;
+    margin-bottom: 2%;
+}
+
+.mainBannerLink{
+    color: #FF731D;
+    border: 2px solid #FF731D;
+    border-radius: 50px;
+    padding: 5px 20px;
+    transition: 0.2s;
+}
+
+.mainBannerLink:hover{
+    color: white;
+    background-color: #FF731D;
+    box-shadow: white 0 0 15px -5px;
+    transition: 0.2s;
+}

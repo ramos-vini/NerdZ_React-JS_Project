@@ -1,0 +1,7 @@
+.courseCard *{
+    text-align: left !important;
+}
+
+.courseCardMedia:hover{
+cursor: pointer;
+}

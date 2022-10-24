@@ -31,6 +31,5 @@
 .mainBannerLink:hover{
     color: white;
     background-color: #FF731D;
-    box-shadow: white 0 0 15px -5px;
     transition: 0.2s;
 }

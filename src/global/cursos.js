@@ -46,42 +46,42 @@ const Cursos = [
         descricao: "descrição do curso 7",
         valor: 197.90,
         img: "https://cursos.dankicode.com/app/Views/public/images/uploads/cursos/5e9e25971f39a.png",
-        categorias: ['lançamentos']
+        categorias: ['lancamentos']
     },
     {
         nome: 'curso 8',
         descricao: "descrição do curso 7",
         valor: 197.90,
         img: "https://cursos.dankicode.com/app/Views/public/images/uploads/cursos/5e9e25971f39a.png",
-        categorias: ['lançamentos']
+        categorias: ['lancamentos']
     },
     {
         nome: 'curso 9',
         descricao: "descrição do curso 7",
         valor: 197.90,
         img: "https://cursos.dankicode.com/app/Views/public/images/uploads/cursos/5e9e25971f39a.png",
-        categorias: ['lançamentos']
+        categorias: ['lancamentos']
     },
     {
         nome: 'curso 10',
         descricao: "descrição do curso 7",
         valor: 197.90,
         img: "https://cursos.dankicode.com/app/Views/public/images/uploads/cursos/5e9e25971f39a.png",
-        categorias: ['lançamentos']
+        categorias: ['lancamentos']
     },
     {
         nome: 'curso 11',
         descricao: "descrição do curso 7",
         valor: 197.90,
         img: "https://cursos.dankicode.com/app/Views/public/images/uploads/cursos/5e9e25971f39a.png",
-        categorias: ['lançamentos']
+        categorias: ['lancamentos']
     },
     {
         nome: 'curso 12',
         descricao: "descrição do curso 7",
         valor: 197.90,
         img: "https://cursos.dankicode.com/app/Views/public/images/uploads/cursos/5e9e25971f39a.png",
-        categorias: ['lançamentos']
+        categorias: ['lancamentos']
     }
 ];
 

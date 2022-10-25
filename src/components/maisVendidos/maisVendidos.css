@@ -10,8 +10,12 @@
     padding-right: 20%;
     border-radius: 10px;
     display: flex;
-    align-items: top;
+    align-items: center;
     margin-bottom: 2%;
+}
+
+.maisVendidosTitle *{
+    margin: 0;
 }
 
 .maisVendidosH2Icon{

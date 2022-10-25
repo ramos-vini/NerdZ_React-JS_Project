@@ -1,17 +1,31 @@
 import './maisVendidos.css';
 import StarRoundedIcon from '@mui/icons-material/StarRounded';
 import CourseCard from '../courseCard/CourseCard';
+import Cursos from '../../global/cursos';
 
-export default function MaisVendidos(params) {
-    return(
+export default function MaisVendidos(props) {
+
+    let cursosCategoria = Cursos;
+
+    if(props.max){
+        cursosCategoria = Cursos.filter((element, idx) => {
+            return idx < parseInt(props.max);
+        })
+    }
+
+    let cursosCategoriaHTML = cursosCategoria.map((element) => {
+
+        return <CourseCard img={element.img} nome={element.nome} descricao={element.descricao}></CourseCard>
+    });
+
+    return (
         <div className='maisVendidosDiv'>
             <div className='maisVendidosTitle'>
-                <StarRoundedIcon className='maisVendidosH2Icon'/>
-                <h2 className='maisVendidosH2'>Mais Vendidos</h2>
+                <StarRoundedIcon className='maisVendidosH2Icon' />
+                <h2>Mais Vendidos</h2>
             </div>
-
             <div>
-                <CourseCard img="https://cursos.dankicode.com/app/Views/public/images/uploads/cursos/599083332ff1a.png" title="Course Title" text="Here comes the course's description"></CourseCard>
+                {cursosCategoriaHTML}
             </div>
         </div>
     );

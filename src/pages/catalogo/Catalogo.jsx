@@ -14,7 +14,7 @@ export default function Catalogo(params) {
 
             <MainBanner></MainBanner>
 
-            <MaisVendidos></MaisVendidos>
+            <MaisVendidos categoria="maisVendidos" max='6'></MaisVendidos>
 
             {/* <Grid container spacing={2}>
                 <Grid item xs={8} sm={6}>

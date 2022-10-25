@@ -1,6 +1,6 @@
 import './registro.css';
 import { TextField, FormControl, Button, Stack } from '@mui/material';
-import {theme, OrangeTextField} from '../../muiTheme';
+import {theme, OrangeTextField} from '../../global/muiTheme';
 import VideoLibraryOutlinedIcon from '@mui/icons-material/VideoLibraryOutlined';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';

@@ -1,6 +1,6 @@
 import './login.css';
 import { TextField, FormControl, Button, Stack } from '@mui/material';
-import {theme, OrangeTextField} from '../../muiTheme';
+import {theme, OrangeTextField} from '../../global/muiTheme';
 import LoginIcon from '@mui/icons-material/Login';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';

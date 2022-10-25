@@ -20,10 +20,10 @@ export default function CourseCard(props) {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          {props.title}
+          {props.nome}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          {props.text}
+          {props.descricao}
         </Typography>
         <Rating name="read-only" value={5} readOnly sx={{marginTop: '4%'}}/>
       </CardContent>

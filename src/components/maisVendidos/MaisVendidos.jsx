@@ -4,6 +4,8 @@ import CourseCard from '../courseCard/CourseCard';
 import Cursos from '../../global/cursos';
 import { Grid } from "@mui/material";
 
+// TODO: Transformar MaisVendidos.jsx em Categoria.jsx e chamar no Catalogo.jsx as Categorias de Dev, Videogames e Séries.
+
 export default function MaisVendidos(props) {
 
     let cursosCategoria = Cursos;

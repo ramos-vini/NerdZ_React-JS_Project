@@ -1,11 +1,12 @@
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-// import FixedCart from "../../components/fixedCart/FixedCart";
-// import { Grid } from "@mui/material";
 import MainBanner from "../../components/mainBanner/MainBanner";
 import MaisVendidos from "../../components/maisVendidos/MaisVendidos";
-
 import './catalogo.css';
+
+// TODO: Adc Categoria.jsx (3x): Videogames, Dev e Séries;
+// TODO: Adc Component para produtores de conteúdo ao final da página;
+// TODO: Adc JS para titulo 'Geek' do banner principal alternar com outras palavras em modelo de digitação.
 
 export default function Catalogo(params) {
     return (
@@ -15,21 +16,6 @@ export default function Catalogo(params) {
             <MainBanner></MainBanner>
 
             <MaisVendidos categoria="maisVendidos"></MaisVendidos>
-
-            {/* <Grid container spacing={2}>
-                <Grid item xs={8} sm={6}>
-                    <h1>teste</h1>
-                </Grid>
-                <Grid item xs={4} sm={6}>
-                    <h1>teste</h1>
-                </Grid>
-                <Grid item xs={4}>
-                    <h1>teste</h1>
-                </Grid>
-                <Grid item xs={8}>
-                    <h1>teste</h1>
-                </Grid>
-            </Grid> */}
 
             <Footer></Footer>
         </>

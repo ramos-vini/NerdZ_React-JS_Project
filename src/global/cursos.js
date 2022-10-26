@@ -1,87 +1,87 @@
 const Cursos = [
     {
-        nome: 'curso 1',
-        descricao: "descrição do curso",
+        nome: 'Fortnite Pro',
+        descricao: "Aprenda as melhores e mais recentes estratégias para se tornar um jogador profissional de Fortnite.",
         valor: 196.70,
-        img: "https://cursos.dankicode.com/app/Views/public/images/uploads/cursos/5e9e25971f39a.png",
-        categorias: ['maisVendidos']
+        img: "https://tecnoblog.net/wp-content/uploads/2021/03/como-mudar-o-nome-no-fortnite.jpg",
+        categorias: ['maisVendidos', 'videogames']
     },
     {
-        nome: 'curso 2',
-        descricao: "descrição do curso",
+        nome: 'Imersão GOT',
+        descricao: "Fique por dentro de tudo que se passa no universo de Game of Thrones, tornando-se um verdadeiro especialista no assunto.",
         valor: 152.70,
-        img: "https://cursos.dankicode.com/app/Views/public/images/uploads/cursos/5e9e25971f39a.png",
-        categorias: ['maisVendidos']
+        img: "https://wallpapertops.com/walldb/original/9/8/f/133082.jpg",
+        categorias: ['maisVendidos', 'series']
     },
     {
-        nome: 'curso 3',
-        descricao: "descrição do curso",
+        nome: 'Dominando Overwatch',
+        descricao: "Aprimore suas habilidades com suas classes preferidas e aprenda como extrair o melhor de cada uma.",
         valor: 128.90,
-        img: "https://cursos.dankicode.com/app/Views/public/images/uploads/cursos/5e9e25971f39a.png",
-        categorias: ['maisVendidos']
+        img: "https://gamehall.com.br/wp-content/uploads/2016/06/overwatch-all-heroes-wallpaper-hd.jpg",
+        categorias: ['maisVendidos', 'videogames']
     },
     {
-        nome: 'curso 4',
-        descricao: "descrição do curso",
+        nome: 'Desenvolvimento de Games',
+        descricao: "Aprenda a desenvolver seus próprios jogos 2D e 3D e publicá-los no mercado.",
         valor: 186.70,
-        img: "https://cursos.dankicode.com/app/Views/public/images/uploads/cursos/5e9e25971f39a.png",
-        categorias: ['maisVendidos']
+        img: "https://media.istockphoto.com/vectors/game-dev-isometric-concept-education-of-creation-3d-design-of-or-vector-id1297564630?k=20&m=1297564630&s=612x612&w=0&h=QenkclbeLXqD7NHYdVoBrm3_T4u16fg86CTGMNGdSHQ=",
+        categorias: ['maisVendidos', 'programacao']
     },
     {
-        nome: 'curso 5',
-        descricao: "descrição do curso",
+        nome: 'Youtuber Lifestyle',
+        descricao: "Descubra tudo que é necessário para viver exclusivamente da sua renda do YouTube.",
         valor: 198.90,
-        img: "https://cursos.dankicode.com/app/Views/public/images/uploads/cursos/5e9e25971f39a.png",
-        categorias: ['maisVendidos']
+        img: "https://uploads.dailydot.com/2019/08/listen_youtube_music_youtube_premium.jpg?auto=compress&fm=pjpg",
+        categorias: ['maisVendidos', 'marketing']
     },
     {
-        nome: 'curso 6',
-        descricao: "descrição do curso",
+        nome: 'Marvel: A Saga Definitiva',
+        descricao: "Prepare-se para uma imersão no incrível universo da Marvel, e adquira um olhar diferenciado para todos os acontecimentos mais recentes e que ainda virão no UCM.",
         valor: 224.90,
-        img: "https://cursos.dankicode.com/app/Views/public/images/uploads/cursos/5e9e25971f39a.png",
-        categorias: ['maisVendidos']
+        img: "https://www.mangotree.com.br/wp-content/uploads/2022/02/personagens-da-marvel-wallpaper.jpg",
+        categorias: ['maisVendidos', 'series']
     },
     {
-        nome: 'curso 7',
-        descricao: "descrição do curso 7",
+        nome: 'MERN Stack',
+        descricao: "Torne-se um Desenvolvedor Web Full-Stack com as tecnologias mais recentes do mercado utilizando a linguagem de programação JavaScript.",
         valor: 197.90,
-        img: "https://cursos.dankicode.com/app/Views/public/images/uploads/cursos/5e9e25971f39a.png",
-        categorias: ['lancamentos']
+        img: "https://blog.hyperiondev.com/wp-content/uploads/2018/09/Blog-Article-MERN-Stack.jpg",
+        categorias: ['lancamentos', 'programacao']
     },
     {
-        nome: 'curso 8',
-        descricao: "descrição do curso 7",
+        nome: 'Família Targaryen',
+        descricao: 'Desenvende os mistérios da poderosa família dos dragões, e fique por dentro de todas as referências na nova séria da HBO "House of Dragons".',
         valor: 197.90,
-        img: "https://cursos.dankicode.com/app/Views/public/images/uploads/cursos/5e9e25971f39a.png",
-        categorias: ['lancamentos']
+        img: "https://wallpapers.com/images/hd/grazed-red-house-targaryen-erf3txy17qxbn9vq.jpg",
+        categorias: ['lancamentos', 'series']
     },
     {
-        nome: 'curso 9',
-        descricao: "descrição do curso 7",
+        nome: 'Mestre dos Cubos',
+        descricao: "Domine a arte de solucionar os tão temidos cubo mágicos e impressione seus amigos desde os cubos mais simples até os modelos que eles muitas vezes nem mesmo conhecem.",
         valor: 197.90,
-        img: "https://cursos.dankicode.com/app/Views/public/images/uploads/cursos/5e9e25971f39a.png",
-        categorias: ['lancamentos']
+        img: "https://qph.cf2.quoracdn.net/main-qimg-3985343c071b91fb10f0e69488e84fda-lq",
+        categorias: ['lancamentos', 'entretenimento']
     },
     {
-        nome: 'curso 10',
-        descricao: "descrição do curso 7",
+        nome: 'Simplificando Dark Souls',
+        descricao: "Faça com que esse desafiador jogo se torne simples perto das habilidades que você irá adquirir com esse curso, passando por mecanismos de combates, estratégias de progressão de fases e coleta de recursos.",
         valor: 197.90,
-        img: "https://cursos.dankicode.com/app/Views/public/images/uploads/cursos/5e9e25971f39a.png",
-        categorias: ['lancamentos']
+        img: "https://images5.alphacoders.com/609/609173.jpg",
+        categorias: ['lancamentos', 'videogames']
     },
     {
-        nome: 'curso 11',
-        descricao: "descrição do curso 7",
+        nome: 'Inteligência Artificial para Leigos',
+        descricao: "Entre de vez no mundo da Inteligência Artificial e faça com que ela trabalhe para você. Aprenda desde o zero os conceitos que permeiam essa área até projetos práticos usando linguagens de programação.",
         valor: 197.90,
-        img: "https://cursos.dankicode.com/app/Views/public/images/uploads/cursos/5e9e25971f39a.png",
-        categorias: ['lancamentos']
+        img: "https://media.istockphoto.com/photos/hand-touching-brain-of-ai-symbolic-machine-learning-artificial-of-picture-id1274437411?b=1&k=20&m=1274437411&s=170667a&w=0&h=btEXIllRM2Qlj4PusT5tjYDMgxZ2TXFP_o05sTUR_L8=",
+        categorias: ['lancamentos', 'programacao']
     },
     {
-        nome: 'curso 12',
-        descricao: "descrição do curso 7",
+        nome: 'Minecraft: Sistemas Modernos de Redstone',
+        descricao: "Aprenda a automizar suas tarefas, aumentar sua mineração e proteger-se de outros players com os sistemas de Redstone mais recentes e funcionais de todo o game.",
         valor: 197.90,
-        img: "https://cursos.dankicode.com/app/Views/public/images/uploads/cursos/5e9e25971f39a.png",
-        categorias: ['lancamentos']
+        img: "https://media.forgecdn.net/attachments/271/846/2019-11-20_21.png",
+        categorias: ['lancamentos', 'videogames']
     }
 ];
 

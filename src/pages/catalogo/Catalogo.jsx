@@ -1,6 +1,6 @@
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import FixedCart from "../../components/fixedCart/FixedCart";
+// import FixedCart from "../../components/fixedCart/FixedCart";
 // import { Grid } from "@mui/material";
 import MainBanner from "../../components/mainBanner/MainBanner";
 import MaisVendidos from "../../components/maisVendidos/MaisVendidos";
@@ -14,7 +14,7 @@ export default function Catalogo(params) {
 
             <MainBanner></MainBanner>
 
-            <MaisVendidos categoria="maisVendidos" max='6'></MaisVendidos>
+            <MaisVendidos categoria="maisVendidos"></MaisVendidos>
 
             {/* <Grid container spacing={2}>
                 <Grid item xs={8} sm={6}>
@@ -30,8 +30,6 @@ export default function Catalogo(params) {
                     <h1>teste</h1>
                 </Grid>
             </Grid> */}
-
-            <FixedCart></FixedCart>
 
             <Footer></Footer>
         </>

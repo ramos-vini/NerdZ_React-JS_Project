@@ -2,6 +2,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import MainBanner from "../../components/mainBanner/MainBanner";
 import MaisVendidos from "../../components/maisVendidos/MaisVendidos";
+import Vantagens from "../../components/vantagens/Vantagens";
 import './catalogo.css';
 
 // TODO: Adc Categoria.jsx (3x): Videogames, Dev e Séries;
@@ -14,6 +15,8 @@ export default function Catalogo(params) {
             <Header></Header>
 
             <MainBanner></MainBanner>
+
+            <Vantagens></Vantagens>
 
             <MaisVendidos categoria="maisVendidos"></MaisVendidos>
 

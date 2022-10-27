@@ -1,0 +1,19 @@
+.cardVantagem{
+    text-align: center;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+}
+
+/* Icone */
+.cardVantagem > :first-child{
+    color: #FF731D;
+    font-size: 6.0rem;
+    margin-bottom: 4%;
+}
+
+/* Descrição */
+.cardVantagem > :last-child{
+    font-weight: normal;
+    width: 70%;
+}

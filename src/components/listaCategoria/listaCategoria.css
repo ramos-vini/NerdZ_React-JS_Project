@@ -1,0 +1,32 @@
+.listaCategoriaDiv{
+    padding: 4% 10%;
+}
+
+.listaCategoriaTitle{
+    background-color: #FF731D;
+    color: white;
+    width: 60%;
+    padding: 5px;
+    padding-right: 20%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4%;
+}
+
+.listaCategoriaTitle *{
+    margin: 0;
+}
+
+.listaCategoriaH2Icon{
+    font-size: 2.4rem !important;
+    margin-right: 2%;
+}
+
+/* Mobile MQ */
+@media screen and (max-width: 767px){
+
+    .listaCategoriaTitle{
+        width: 100%;
+    }
+}

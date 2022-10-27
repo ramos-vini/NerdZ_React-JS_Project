@@ -1,12 +1,11 @@
-import './maisVendidos.css';
-import StarRoundedIcon from '@mui/icons-material/StarRounded';
+import './listaCategoria.css';
 import CourseCard from '../courseCard/CourseCard';
 import Cursos from '../../global/cursos';
 import { Grid } from "@mui/material";
 
-// TODO: Transformar MaisVendidos.jsx em Categoria.jsx e chamar no Catalogo.jsx as Categorias de Dev, Videogames e Séries.
+// TODO: Transformar MaisVendidos.jsx em ListaCategoria.jsx e chamar no Catalogo.jsx as Categorias de Dev, Videogames e Séries.
 
-export default function MaisVendidos(props) {
+export default function ListaCategoria(props) {
 
     let cursosCategoria = Cursos;
 
@@ -28,10 +27,10 @@ export default function MaisVendidos(props) {
     });
 
     return (
-        <div className='maisVendidosDiv'>
-            <div className='maisVendidosTitle'>
-                <StarRoundedIcon className='maisVendidosH2Icon' />
-                <h2>Mais Vendidos</h2>
+        <div className='listaCategoriaDiv'>
+            <div className='listaCategoriaTitle'>
+                {props.icon}
+                <h2>{props.title}</h2>
             </div>
             <div>
                 <Grid container spacing={8}>

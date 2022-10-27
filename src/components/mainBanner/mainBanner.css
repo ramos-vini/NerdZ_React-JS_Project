@@ -33,3 +33,16 @@
     background-color: #FF731D;
     transition: 0.2s;
 }
+
+/* Mobile MQ */
+@media screen and (max-width: 767px){
+
+    .mainBannerContent h1{
+        font-size: 4.0rem;
+        margin-bottom: 4%;
+    }
+
+    .mainBannerLink{
+        font-size: 0.7rem;
+    }
+}

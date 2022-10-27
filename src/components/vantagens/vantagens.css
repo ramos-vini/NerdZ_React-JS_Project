@@ -1,3 +1,7 @@
+.gridVantagens{
+    padding: 4% 10%;
+}
+
 .cardVantagem{
     text-align: center;
     display: flex;
@@ -9,11 +13,22 @@
 .cardVantagem > :first-child{
     color: #FF731D;
     font-size: 6.0rem;
-    margin-bottom: 4%;
+    margin-bottom: 6%;
 }
 
 /* Descrição */
 .cardVantagem > :last-child{
     font-weight: normal;
     width: 70%;
+}
+
+/* Tablet MQ */
+@media screen and (max-width: 1023px){
+    .gridVantagens{
+        padding: 8% 10%;
+    }
+   
+    .cardVantagem > :last-child{
+        width: 100%;
+    }
 }

@@ -11,7 +11,7 @@ let arrayVantagens = [
     },
     {
         icone: <DevicesIcon></DevicesIcon>,
-        descricao: 'Assista quando e onde estiver'
+        descricao: 'Assista quando e onde quiser'
     },
     {
         icone: <AllInclusiveIcon></AllInclusiveIcon>,
@@ -19,7 +19,7 @@ let arrayVantagens = [
     },
 ];
 
-let cardsVantagens = arrayVantagens.map((vantagem) => {
+let cardsVantagens = arrayVantagens.map((vantagem, idx) => {
     return (
         <Grid item xs={12} sm={4} className='cardVantagem'>
             {vantagem.icone}
@@ -30,7 +30,7 @@ let cardsVantagens = arrayVantagens.map((vantagem) => {
 
 export default function Vantagens() {
     return (
-        <Grid container spacing={8} sx={{padding: '4% 10%'}}>
+        <Grid container spacing={8} className="gridVantagens">
             {cardsVantagens}
         </Grid>
     );

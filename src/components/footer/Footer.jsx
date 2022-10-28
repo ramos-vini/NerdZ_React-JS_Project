@@ -8,7 +8,7 @@ export default function Footer(params) {
             <div className='footerNavDiv1'>
                 <section className='footerNavDiv1Sec1'>
                     <h4>Nosso Objetivo</h4>
-                    <p>A NerdZ foi criada para levar ao público da cultura geek conhecimentos aprofundados sobre seus assuntos favoritos, sejam videogames, séries, filmes, HQs ou ramos da tecnologia. Tudo que um Nerd precisa, ele encontra aqui!</p>
+                    <p>A NerdZ foi criada para levar ao público da cultura geek conhecimentos aprofundados sobre seus assuntos favoritos, sejam videogames, séries, filmes, HQs ou ramos da tecnologia. Tudo que um Nerd precisa ele encontra aqui!</p>
                     <p><EmailOutlinedIcon fontSize='small'></EmailOutlinedIcon> <i>atendimento@nerdz.com.br</i></p>
                 </section>
 

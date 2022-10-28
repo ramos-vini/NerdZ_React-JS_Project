@@ -1,0 +1,17 @@
+.bannerCursos{
+    background-color: #B25014;
+    color: white;
+    text-align: center;
+    padding: 3% 10%;
+}
+
+.bannerCursos h5{
+    font-weight: lighter;
+}
+
+/* Tablet MQ */
+@media screen and (max-width: 1023px){
+    .bannerCursos{
+        margin-bottom: 4%;
+    }
+}

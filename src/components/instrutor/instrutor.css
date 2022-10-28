@@ -1,0 +1,57 @@
+.instrutorGridContainer{
+    padding: 4% 20%;
+}
+
+.instrutorGridItem2{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+}
+
+.instrutorGridItem2 h5{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-weight: normal;
+}
+
+.instrutorGridItem2 *{
+    text-align: left;
+}
+
+.instrutorLink{
+    color: #FF731D;
+    border: 2px solid #FF731D;
+    border-radius: 50px;
+    padding: 5px 20px;
+    transition: 0.2s;
+    font-weight: 500;
+}
+
+.instrutorLink:hover{
+    color: white;
+    background-color: #FF731D;
+    transition: 0.2s;
+}
+
+/* Tablet MQ */
+@media screen and (max-width: 1023px){
+    .instrutorGridContainer{
+        padding: 4% 10%;
+    }
+
+    .instrutorLink{
+        font-size: 0.8rem;
+    }
+}
+
+/* Mobile MQ */
+@media screen and (max-width: 767px){
+    .instrutorGridItem2 *{
+        text-align: center;
+    }
+
+    .instrutorGridItem2{
+        padding-top: 0 !important;
+        padding-bottom: 8%;
+    }
+}

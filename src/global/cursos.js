@@ -91,7 +91,7 @@ const Cursos = [
         categorias: ['videogames']
     },
     {
-        nome: 'Star Wars ao Infinito',
+        nome: 'Universo Star Wars',
         descricao: "Conheça a fundo cada uma das histórias que se cruzam e caminham juntas nesse infinito universo de Star Wars.",
         valor: 197.90,
         img: "https://wallpaperaccess.com/full/2101913.jpg",

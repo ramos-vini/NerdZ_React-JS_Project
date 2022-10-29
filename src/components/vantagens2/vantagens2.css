@@ -1,0 +1,9 @@
+/* Título */
+.cardVantagem2>h4 {
+    color: #FF731D;
+}
+
+/* Descrição */
+.cardVantagem2>h6 {
+    width: 100% !important;
+}

@@ -1,0 +1,23 @@
+.divFeedback{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.imgFeedback{
+    width: 30%;
+    margin: auto;
+}
+
+/* Tablet MQ */
+@media screen and (max-width: 1023px){
+    .imgFeedback{
+        width: 50%;
+    }
+}
+
+/* Mobile MQ */
+@media screen and (max-width: 767px){
+    .imgFeedback{
+        width: 70%;
+    }
+}

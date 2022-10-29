@@ -13,7 +13,7 @@ export default function Instrutor(params) {
             <Grid item xs={12} sm={6} className="instrutorGridItem2">
                 <h2>Torne-se um Instrutor</h2>
                 <h5>A NerdZ te dá todo o suporte necessário para você ensinar aquilo que ama &#9825;</h5>
-                <p style={{marginTop: '4%'}}><Link to="/registro" className="instrutorLink">COMECE AGORA</Link></p>
+                <p style={{marginTop: '4%'}}><Link to="/registro" className="CTA">COMECE AGORA</Link></p>
             </Grid>
         </Grid>
     );

@@ -18,7 +18,7 @@
     text-align: left;
 }
 
-.instrutorLink{
+.CTA{
     color: #FF731D;
     border: 2px solid #FF731D;
     border-radius: 50px;
@@ -27,7 +27,7 @@
     font-weight: 500;
 }
 
-.instrutorLink:hover{
+.CTA:hover{
     color: white;
     background-color: #FF731D;
     transition: 0.2s;
@@ -39,7 +39,7 @@
         padding: 4% 10%;
     }
 
-    .instrutorLink{
+    .CTA{
         font-size: 0.8rem;
     }
 }

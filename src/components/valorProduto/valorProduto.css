@@ -1,0 +1,52 @@
+@font-face {
+    font-family: produto;
+    src: url(../../assets/fonts/GAMERIA.ttf);
+}
+
+.valorProduto{
+    padding: 4% 10%;
+}
+
+.valorProduto *{
+    text-align: center;
+}
+
+.valorProduto h1{
+    font-family: produto;
+    font-size: 4.0rem;
+    color: #FF731D;
+    margin: 0;
+}
+
+.valorProduto h5{
+    font-weight: normal;
+    margin: auto;
+    margin-bottom: 4%;
+}
+
+.valorProduto h3{
+    background-color: #FF731D;
+    color: white;
+    width: fit-content;
+    margin: 1% auto;
+}
+
+.oldPrice{
+    text-decoration: line-through;
+}
+
+/* Mobile MQ */
+@media screen and (max-width: 767px){
+
+    .valorProduto h1{
+        font-size: 2.5rem;
+    }
+
+    .valorProduto h3{
+        margin: 4% auto;
+    }
+
+    .CTAMobile{
+        font-size: 0.7rem;
+    }
+}

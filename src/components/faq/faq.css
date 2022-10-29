@@ -1,0 +1,8 @@
+.divFaq{
+    padding: 4% 10%;
+}
+
+.divFaq > h3{
+    text-align: center;
+    margin-bottom: 6%;
+}

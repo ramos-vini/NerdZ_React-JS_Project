@@ -30,7 +30,7 @@ let arrayVantagens = [
 
 let cardsVantagens = arrayVantagens.map((vantagem, idx) => {
     return (
-        <Grid item xs={12} sm={3} className='cardVantagem cardVantagem2'>
+        <Grid item xs={12} sm={6} md={3} className='cardVantagem cardVantagem2' key={idx}>
             {vantagem.icone}
             <h4>{vantagem.titulo}</h4>
             <h6>{vantagem.descricao}</h6>

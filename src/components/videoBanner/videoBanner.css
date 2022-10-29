@@ -1,0 +1,29 @@
+.bannerVideo{
+    text-align: center;
+    padding: 4% 10%;
+}
+
+.iframe {
+    border-radius: 6px;
+    border: white 4px solid;
+    box-shadow: gray 0 0 6px;
+  }
+
+/* Mobile MQ */
+@media screen and (max-width: 767px){
+
+    .video-responsive {
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0;
+      }
+      
+      .video-responsive iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+      }
+}

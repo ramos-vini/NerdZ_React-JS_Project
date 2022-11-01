@@ -1,0 +1,42 @@
+.divGarantia {
+    padding: 4% 10%;
+    display: flex;
+    align-items: center;
+    background-color: #B25014;
+    color: white;
+}
+
+.divGarantia *{
+    text-align: left !important;
+}
+
+.divGarantia > div:first-of-type{
+    margin-right: 4%;
+}
+
+.CTAwhite{
+    color: white;
+    border-color: white;
+}
+
+.CTAwhite:hover{
+    background-color: white;
+    color: #B25014;
+}
+
+/* Mobile MQ */
+@media screen and (max-width: 767px) {
+    .divGarantia {
+        flex-direction: column;
+        padding: 8% 10%;
+    }
+    
+    .divGarantia *{
+        text-align: center !important;
+    }
+    
+    .divGarantia > div:first-of-type{
+        margin-right: 0;
+        margin-bottom: 8%;
+    }
+}

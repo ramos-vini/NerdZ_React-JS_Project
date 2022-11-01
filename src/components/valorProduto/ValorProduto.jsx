@@ -2,9 +2,9 @@ import './valorProduto.css';
 import Cursos from '../../global/cursos';
 import { Link } from "react-router-dom";
 
-export default function ValorProduto(params) {
+export default function ValorProduto(props) {
 
-    let curso = Cursos[0];
+    let curso = Cursos[props.idx];
 
     return (
         <div className='valorProduto'>

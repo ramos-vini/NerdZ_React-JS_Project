@@ -1,9 +1,9 @@
 import './videoBanner.css';
 import Cursos from '../../global/cursos';
 
-export default function VideoBanner(params) {
+export default function VideoBanner(props) {
 
-    let curso = Cursos[0];
+    let curso = Cursos[props.idx];
 
     return (
 

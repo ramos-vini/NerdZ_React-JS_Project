@@ -7,6 +7,8 @@ import Footer from '../../components/footer/Footer';
 
 export default function Login(params) {
 
+    // TODO: Habilitar alternância de visibilidade da Senha, no Login e no Registro
+
     return (
         <>
             <Header></Header>

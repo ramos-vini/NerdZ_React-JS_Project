@@ -1,7 +1,8 @@
 import './feedback.css';
 import { Link } from "react-router-dom";
+import Cursos from '../../global/cursos';
 
-export default function Feedback(params) {
+export default function Feedback(props) {
     return (
         <div className='divFeedback'>
         <div id="carouselExampleControls" class="carousel slide carousel-dark" data-bs-ride="carousel" data-bs-pause="false">
@@ -29,7 +30,7 @@ export default function Feedback(params) {
             </button>
         </div>
 
-        <h4 style={{margin: '4% 0', textAlign: 'center'}}><Link to="/registro" className="CTA CTAMobile">QUERO FAZER PARTE DESSA FAMÍLIA!</Link></h4>
+        <h4 style={{margin: '4% 0', textAlign: 'center'}}><Link to={`/checkout/${((Cursos[props.idx]).nome).replace(/ /g, "-").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")}`} className="CTA CTAMobile" onClick={() => {window.scrollTo({top: 0, left: 0, behavior: 'initial'});}}>QUERO FAZER PARTE DESSA FAMÍLIA!</Link></h4>
         </div>
     );
 }

@@ -9,14 +9,14 @@ export default function PaymentForm() {
   return (
     <React.Fragment>
       <Typography variant="h6" gutterBottom>
-        Payment method
+        Detalhes do Pagamento
       </Typography>
       <Grid container spacing={3}>
         <Grid item xs={12} md={6}>
           <TextField
             required
             id="cardName"
-            label="Name on card"
+            label="Nome do Titular"
             fullWidth
             autoComplete="cc-name"
             variant="standard"
@@ -26,7 +26,7 @@ export default function PaymentForm() {
           <TextField
             required
             id="cardNumber"
-            label="Card number"
+            label="Número do Cartão"
             fullWidth
             autoComplete="cc-number"
             variant="standard"
@@ -36,7 +36,7 @@ export default function PaymentForm() {
           <TextField
             required
             id="expDate"
-            label="Expiry date"
+            label="Data de Vencimento"
             fullWidth
             autoComplete="cc-exp"
             variant="standard"
@@ -47,7 +47,7 @@ export default function PaymentForm() {
             required
             id="cvv"
             label="CVV"
-            helperText="Last three digits on signature strip"
+            helperText="Código de 3 digitos impresso no verso do cartão"
             fullWidth
             autoComplete="cc-csc"
             variant="standard"
@@ -56,7 +56,7 @@ export default function PaymentForm() {
         <Grid item xs={12}>
           <FormControlLabel
             control={<Checkbox color="secondary" name="saveCard" value="yes" />}
-            label="Remember credit card details for next time"
+            label="Lembrar deste cartão para futuras compras"
           />
         </Grid>
       </Grid>

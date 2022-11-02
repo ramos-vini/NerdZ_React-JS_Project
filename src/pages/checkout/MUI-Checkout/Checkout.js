@@ -19,9 +19,9 @@ import Review from './Review';
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
-      {'Copyright © '}
+      {'Todos os direitos reservados © '}
       <Link color="inherit" href="https://mui.com/">
-        Your Website
+        NerdZ
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -29,7 +29,7 @@ function Copyright() {
   );
 }
 
-const steps = ['Shipping address', 'Payment details', 'Review your order'];
+const steps = ['Endereço', 'Pagamento', 'Revise seu Pedido'];
 
 function getStepContent(step) {
   switch (step) {
@@ -40,7 +40,7 @@ function getStepContent(step) {
     case 2:
       return <Review />;
     default:
-      throw new Error('Unknown step');
+      throw new Error('Etapa Desconhecida');
   }
 }
 
@@ -71,14 +71,14 @@ export default function Checkout() {
       >
         <Toolbar>
           <Typography variant="h6" color="inherit" noWrap>
-            Company name
+            NerdZ
           </Typography>
         </Toolbar>
       </AppBar>
       <Container component="main" maxWidth="sm" sx={{ mb: 4 }}>
         <Paper variant="outlined" sx={{ my: { xs: 3, md: 6 }, p: { xs: 2, md: 3 } }}>
           <Typography component="h1" variant="h4" align="center">
-            Checkout
+            Finalize seu Pedido
           </Typography>
           <Stepper activeStep={activeStep} sx={{ pt: 3, pb: 5 }}>
             {steps.map((label) => (
@@ -90,12 +90,12 @@ export default function Checkout() {
           {activeStep === steps.length ? (
             <React.Fragment>
               <Typography variant="h5" gutterBottom>
-                Thank you for your order.
+                Obrigado por escolher a NerdZ!
               </Typography>
               <Typography variant="subtitle1">
-                Your order number is #2001539. We have emailed your order
-                confirmation, and will send you an update when your order has
-                shipped.
+                Nós lhe enviamos um e-mail de confirmação de sua compra.
+                Seu acesso ao curso já está liberado em nossa plataforma.
+                <br></br>Bons estudos!
               </Typography>
             </React.Fragment>
           ) : (
@@ -104,7 +104,7 @@ export default function Checkout() {
               <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
                 {activeStep !== 0 && (
                   <Button onClick={handleBack} sx={{ mt: 3, ml: 1 }}>
-                    Back
+                    Voltar
                   </Button>
                 )}
 
@@ -113,7 +113,7 @@ export default function Checkout() {
                   onClick={handleNext}
                   sx={{ mt: 3, ml: 1 }}
                 >
-                  {activeStep === steps.length - 1 ? 'Place order' : 'Next'}
+                  {activeStep === steps.length - 1 ? 'Concluir Pedido' : 'Próximo'}
                 </Button>
               </Box>
             </React.Fragment>

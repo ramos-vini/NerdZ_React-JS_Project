@@ -20,11 +20,11 @@ export default function Produto(props) {
 
             <Vantagens2></Vantagens2>
 
-            <Feedback></Feedback>
+            <Feedback idx={props.idx}></Feedback>
 
             <Faq></Faq>
 
-            <Garantia></Garantia>
+            <Garantia idx={props.idx}></Garantia>
 
             <Footer></Footer>
         </>

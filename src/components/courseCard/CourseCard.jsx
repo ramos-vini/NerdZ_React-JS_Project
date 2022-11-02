@@ -17,7 +17,7 @@ export default function CourseCard(props) {
 
       <Card sx={{ maxWidth: 345, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }} className='courseCard'>
         <div>
-          <Link to={`/produto/${((Cursos[props.idx]).nome).replace(/ /g, "-").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")}`}>
+          <Link to={`/produto/${((Cursos[props.idx]).nome).replace(/ /g, "-").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")}`} onClick={() => {window.scrollTo({top: 0, left: 0, behavior: 'initial'});}}>
             <CardMedia
               component="img"
               height="140"
@@ -40,7 +40,7 @@ export default function CourseCard(props) {
         <div>
 
           <CardActions>
-            <Link to={`/produto/${((Cursos[props.idx]).nome).replace(/ /g, "-").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")}`}>
+            <Link to={`/produto/${((Cursos[props.idx]).nome).replace(/ /g, "-").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")}`} onClick={() => {window.scrollTo({top: 0, left: 0, behavior: 'initial'});}}>
               <Button size="small" sx={{ color: '#FF731D' }}>Conheça o Curso</Button>
             </Link>
           </CardActions>

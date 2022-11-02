@@ -20,7 +20,7 @@ export default function Footer(params) {
             </div>
 
             <div className='footerNavDiv2'>
-            <h2 className='logo logoFooter'><Link to="/">NerdZ</Link></h2>
+            <h2 className='logo logoFooter'><Link to="/" onClick={() => {window.scrollTo({top: 0, left: 0, behavior: 'initial'});}}>NerdZ</Link></h2>
             </div>
         </nav>
     );

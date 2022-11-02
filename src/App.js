@@ -4,8 +4,8 @@ import Catalogo from './pages/catalogo/Catalogo';
 import Login from '../src/pages/login/Login'
 import Registro from './pages/registro/Registro';
 import Produto from './pages/produto/Produto';
-import Checkout from './pages/checkout/Checkout';
 import NotFound from './pages/notFound/NotFound';
+import Checkout from './pages/checkout/MUI-Checkout/Checkout';
 
 import Cursos from './global/cursos';
 

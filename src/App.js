@@ -5,7 +5,7 @@ import Login from '../src/pages/login/Login'
 import Registro from './pages/registro/Registro';
 import Produto from './pages/produto/Produto';
 import NotFound from './pages/notFound/NotFound';
-import Checkout from './pages/checkout/MUI-Checkout/Checkout';
+import Checkout from './pages/checkout/Checkout';
 
 import Cursos from './global/cursos';
 
@@ -35,10 +35,13 @@ function App() {
             })
           }
           {/* Rotas de checkout dos produtos: */}
-          {/* TODO: Criação de rotas individuais de Checkout para cada produto*/}
-          {/* TODO: Implementação de informações dinâmicas na página de Checkout via props*/}
-          {/* TODO: Estilização do Checkout com muiTheme.js*/}
-          <Route exact path="/checkout" element={<Checkout />} />
+          {
+            Cursos.map((curso, idx) => {
+              return (
+                <Route exact path={`/checkout/${(curso.nome).replace(/ /g, "-").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")}`} element={<Checkout idx={idx} />} />
+              )
+            })
+          }
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

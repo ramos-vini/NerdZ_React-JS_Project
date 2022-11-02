@@ -1,8 +1,6 @@
 import './garantia.css';
 import { Link } from "react-router-dom";
 
-// TODO: Garantia de 7 dias + CTA nº3
-
 export default function Garantia(params) {
     return (
         <div className='divGarantia'>

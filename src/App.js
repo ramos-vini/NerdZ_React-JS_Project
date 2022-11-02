@@ -35,6 +35,9 @@ function App() {
             })
           }
           {/* Rotas de checkout dos produtos: */}
+          {/* TODO: Criação de rotas individuais de Checkout para cada produto*/}
+          {/* TODO: Implementação de informações dinâmicas na página de Checkout via props*/}
+          {/* TODO: Estilização do Checkout com muiTheme.js*/}
           <Route exact path="/checkout" element={<Checkout />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

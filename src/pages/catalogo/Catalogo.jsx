@@ -10,8 +10,6 @@ import BannerCursos from "../../components/bannerCursos/BannerCursos";
 import Instrutor from "../../components/instrutor/Instrutor";
 import './catalogo.css';
 
-// TODO: Adc JS para titulo 'Geek' do banner principal alternar com outras palavras em modelo de digitação.
-
 export default function Catalogo(params) {
     return (
         <>

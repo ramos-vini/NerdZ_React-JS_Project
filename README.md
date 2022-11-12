@@ -1,7 +1,16 @@
-# NerdZ
+# NerdZ - Front-End Project [PT-BR]
+This is a personal project developed during my Full-Stack Web Development bootcamp at Instituto Infnet.
 
-[Projeto Final React JS - Instituto Infnet]
+NerdZ is an online courses platform for the most diverse topics of geek culture, whether to deepen knowledge on series and movies, improve skills and strategies with video games or even get to grips with computer science field.
 
-A NerdZ é uma plataforma de cursos online sobre os mais diversos tópicos da cultura geek, seja para aprofundar os conhecimentos sobre séries e filmes, aprimorar as habilidades e estratégias com videogames ou até mesmo adentrar no ramo da ciência da computação.
-
-Trata-se de um projeto Front-End, desenvolvido de forma totalmente responsiva para a Web, utilizando o Framework React JS e a Biblioteca Material-UI.
+Main Technologies used:
+- Visual Studio Code;
+- HTML5;
+- CSS3;
+- Media Queries;
+- Bootstrap;
+- JavaScript;
+- NPM;
+- React JS;
+- React Router DOM;
+- Material UI.
